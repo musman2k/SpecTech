@@ -112,7 +112,7 @@ export default function ContactSection() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4 border border-cyan/15 clip-corner p-6 bg-navy/60 backdrop-blur">
-                <div className="font-mono text-[10px] text-cyan/40 tracking-[0.3em] mb-4">// TRANSMISSION FORM</div>
+                <div className="font-mono text-[10px] text-cyan/40 tracking-[0.3em] mb-4">TRANSMISSION FORM</div>
 
                 {[
                   { name: 'name',  label: 'IDENTIFIER (NAME)',     type: 'text',  placeholder: 'Your name' },
