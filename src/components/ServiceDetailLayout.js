@@ -152,7 +152,7 @@ export default function ServiceDetailLayout({
           </a>
         </section>
       </div>
-
+      <AboutSection />
       <ContactSection />
     </div>
   );
